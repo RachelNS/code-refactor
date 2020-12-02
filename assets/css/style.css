@@ -1,3 +1,4 @@
+/* This styling applies throughout the website */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-
+/* This styles the header for the website */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,41 +61,42 @@ p {
     background-position: center;
 }
 
+/* This sets up the template for the three sections making up the main part of the website */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.main-title {
-    margin: 20px;
+/* This styles the titles in the main section of the website */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
     font-size: 36px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
 }
 
-
-.main-text {
+/* This styles the text underneath the titles in the main section of the website */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color: #0072bb;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
-
-.left-image {
+/* This styles the images in the main section of the website */
+.float-left {
+    float: left;
+    margin-right: 25px;
     max-height: 200px;
-    margin-right: 25px; 
-    float: left;   
 }
 
-#right-image {
-    max-height: 200px;
-    margin-left: 25px;
+.float-right {
     float: right;
+    margin-left: 25px;
+    max-height: 200px;
 }
+
 
 /* This styles the sidebar on the right-hand side of the screen */
 .benefits {
@@ -128,7 +130,7 @@ p {
     max-width: 150px;
 }
 
-
+/* This styles the footer and the company tagline at the bottom of the page */
 footer {
     padding: 30px;
     clear: both;
